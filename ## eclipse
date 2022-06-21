@@ -1,0 +1,55 @@
+## eclipse
+package clase2;
+    //3-Pedir el ingreso de 3 números y mostrar la suma de ellos.
+
+
+import java.util.Scanner;
+
+public class ejercicio3 {
+	//INICIO
+	public static void main(String args[]) {
+		
+    //TECLADO
+		Scanner input = new Scanner(System.in);
+		
+	//Int num1 = 0;
+		int num1 = 0;
+		
+	//Int num2 = 0;
+		int num2 = 0;
+		
+	//Int num3 = 0;
+		int num3 = 0;
+		
+	//Int suma = 0;
+		int suma = 0;
+		
+	//MOSTRAR “Ingrese un numero”;
+		System.out.println("ingrese un numero");
+		
+	//GUARDAR num1;
+		 num1 = input.nextInt();
+		
+	//MOSTRAR “Ingrese otro numero”;
+		System.out.println("ingrese otro numero");
+		
+	//GUARDAR num2;
+		num2 = input.nextInt();
+		
+	//MOSTRAR “Ingrese el ultimo numero”;
+		System.out.println("ingrese ultimo numero");
+		
+	//GUARDAR num3;
+	     num3 = input.nextInt();
+		
+	//Int suma = num1 + num2 + num3;
+		 suma = num1 + num2 + num3;
+		
+	
+	//MOSTRAR “La suma es “ + suma;
+		System.out.println("la suma es" + suma);
+		
+    //FIN
+	}
+
+}
